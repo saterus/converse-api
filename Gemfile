@@ -5,6 +5,7 @@ gem 'pg'
 
 gem 'dotenv-rails', :require => 'dotenv/rails-now'
 gem 'jquery-rails'
+gem 'jsonapi-resources'
 gem 'sass-rails', '~> 5.0'
 gem 'thin'
 gem 'uglifier', '>= 1.3.0'
