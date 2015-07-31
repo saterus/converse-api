@@ -1,6 +1,7 @@
 class ConversationResource < JSONAPI::Resource
 
-  attributes :title, :created_at, :updated_at
+  attributes :title
+  attributes :created_at, :updated_at, format: :iso_date
 
   def self.updatable_fields(context)
     super - [:created_at, :updated_at]
