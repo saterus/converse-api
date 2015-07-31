@@ -1,0 +1,5 @@
+log/*.log
+tmp/*
+!tmp/.keep
+.foreman
+Procfile.local
